@@ -31,7 +31,7 @@ public class Main {
 
             }
             else if(downPayment >= loan){
-                System.out.println("The can be paid in full! You don't need this calculator?");
+                System.out.println("The loan can be paid in full! You don't need this calculator?");
             }
             else{
                 double remainingBalance = loan - downPayment;
